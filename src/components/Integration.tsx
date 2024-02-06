@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import amazonMiniImage from '@/assets/logo/amazon-mini.svg'
 import slackImage from '@/assets/logo/slack.svg'
 import openAiImage from '@/assets/logo/openai.svg'
@@ -74,7 +75,7 @@ export const Integration = () => {
 
         <div className="mt-6 grid gap-6 lg:grid-cols-3">
           <Card className="cursor-pointer transition-all hover:shadow">
-            <Card.Body className='p-6 gap-0'>
+            <Card.Body className="p-6 gap-0">
               <div className="flex items-center justify-between gap-4">
                 <div className="flex items-center gap-4">
                   <div className="flex h-16 w-16 items-center justify-center rounded-full bg-base-200">
@@ -82,8 +83,8 @@ export const Integration = () => {
                   </div>
                   <h3 className="text-xl font-semibold">Slack</h3>
                 </div>
-                <Button shape="circle" className=''>
-                  <ArrowRight className="text-2xl"></ArrowRight>
+                <Button shape="circle" className="">
+                  <ArrowRight className="text-2xl" />
                 </Button>
               </div>
               <p className="mt-4 text-sm">Streamline project discussions, share updates, and boost real-time collaboration effortlessly.</p>
@@ -91,7 +92,7 @@ export const Integration = () => {
           </Card>
 
           <Card className="cursor-pointer transition-all hover:shadow">
-            <Card.Body className='p-6 gap-0'>
+            <Card.Body className="p-6 gap-0">
               <div className="flex items-center justify-between gap-2 p-0">
                 <div className="flex items-center gap-4">
                   <div className="flex h-16 w-16 items-center justify-center rounded-full bg-base-200">
@@ -100,7 +101,7 @@ export const Integration = () => {
                   <h3 className="text-xl font-semibold">Google Drive</h3>
                 </div>
                 <Button shape="circle" aria-label="Details">
-                  <ArrowRight className="text-2xl"></ArrowRight>
+                  <ArrowRight className="text-2xl" />
                 </Button>
               </div>
               <p className="mt-4 text-sm">
@@ -110,7 +111,7 @@ export const Integration = () => {
           </Card>
 
           <Card className="cursor-pointer transition-all hover:shadow">
-            <Card.Body className='p-6 gap-0'>
+            <Card.Body className="p-6 gap-0">
               <div className="flex items-center justify-between gap-4">
                 <div className="flex items-center gap-4">
                   <div className="flex h-16 w-16 items-center justify-center rounded-full bg-base-200">
@@ -119,7 +120,7 @@ export const Integration = () => {
                   <h3 className="text-xl font-semibold">Bitbucket</h3>
                 </div>
                 <Button shape="circle" aria-label="Details">
-                  <ArrowRight className="text-2xl"></ArrowRight>
+                  <ArrowRight className="text-2xl" />
                 </Button>
               </div>
               <p className="mt-4 text-sm">

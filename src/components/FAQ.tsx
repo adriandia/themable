@@ -45,7 +45,7 @@ export const FAQ = () => {
               <Collapse.Title className="text-xl font-medium">Is there a trial period for your SaaS platform?</Collapse.Title>
               <Collapse.Content>
                 <p className="text-base">
-                  Yes, we offer a free trial period for you to explore and experience our platform's features. No credit card is required during the
+                  Yes, we offer a free trial period for you to explore and experience our platform features. No credit card is required during the
                   trial period.
                 </p>
               </Collapse.Content>

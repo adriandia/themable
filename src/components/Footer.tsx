@@ -135,7 +135,7 @@ export const Footer = () => {
 
             <div className="mt-6 flex items-center gap-3">
               <Button color="primary">Book a Demo</Button>
-              <Button color="ghost" className="" startIcon={<Play className={'text-xl'} />}>
+              <Button color="ghost" className="" startIcon={<Play className="text-xl" />}>
                 <span>Video Tour</span>
               </Button>
             </div>
@@ -145,7 +145,7 @@ export const Footer = () => {
 
       <div className="border-t border-white/20 px-8 py-4 text-center lg:px-40 text-sm">
         🌼 Made with
-        <a className="link-hover link" href="https://themes.ionevolve.com/" target="_blank"> Themable </a>
+        <a className="link-hover link" href="https://themes.ionevolve.com/" target="_blank" rel="noreferrer">Themable</a>
       </div>
     </footer>
   )

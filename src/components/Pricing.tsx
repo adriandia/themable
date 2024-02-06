@@ -25,7 +25,7 @@ export const Pricing = () => {
                 className={`lg:px-10 ${Indicator.className()} }`}>
                 Yearly
                 <Indicator.Item>
-                  <Badge color={'neutral'}>-40%</Badge>
+                  <Badge color="neutral">-40%</Badge>
                 </Indicator.Item>
               </Tabs.Tab>
             </Tabs>

@@ -4,7 +4,7 @@ import microsoftImage from '@/assets/logo/microsoft.svg'
 import netflixImage from '@/assets/logo/netflix.svg'
 import spotifyImage from '@/assets/logo/spotify.svg'
 import paypalImage from '@/assets/logo/paypal.svg'
-import {Button} from 'react-daisyui'
+import {Button, Link} from 'react-daisyui'
 import Card3d from 'card3d';
 import {useEffect, useRef} from "react";
 
@@ -37,6 +37,7 @@ export const Hero = () => {
                         <div className="mt-16 inline-flex gap-3">
                             <Button color="primary">Get Started</Button>
                             <Button color="ghost">Learn More</Button>
+                            <a role="button" className="btn btn-link" href="https://themes.ionevolve.com/" target='_blank'>Theme Builder</a>
                         </div>
                     </div>
 

@@ -21,7 +21,7 @@ export const Topbar = () => {
       <div className="bg-neutral py-1.5 text-center text-xs text-neutral-content md:text-sm">
         <span>
           Revamp Your Control: Code
-          <span className="mx-1 font-semibold text-warning">DAISYUI</span>
+          <span className="mx-1 font-semibold text-warning">ToolBar</span>
           for a 20% SaaS discount 🚀
         </span>
       </div>
@@ -38,7 +38,7 @@ export const Topbar = () => {
                     <Menu className="min-h-full w-80 gap-2 bg-base-100 p-4 text-base-content">
                       <Menu.Item className="font-medium">
                         <a href="index.html" className="text-xl font-bold">
-                          SaaS Landing
+                          Demo Landing
                         </a>
                       </Menu.Item>
 
@@ -66,7 +66,7 @@ export const Topbar = () => {
               </div>
 
               <a href="#" className="text-xl font-bold tracking-tighter">
-                SaaS Landing
+                Demo Landing
               </a>
             </Navbar.Start>
 

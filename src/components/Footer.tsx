@@ -145,7 +145,7 @@ export const Footer = () => {
 
       <div className="border-t border-white/20 px-8 py-4 text-center lg:px-40 text-sm">
         🌼 Made with
-        <a className="link-hover link" href="https://daisyui.com" target="_blank"> daisyUI </a>
+        <a className="link-hover link" href="https://themes.ionevolve.com/" target="_blank"> Themable </a>
       </div>
     </footer>
   )

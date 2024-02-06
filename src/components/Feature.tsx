@@ -7,14 +7,13 @@ export const Feature = () => {
   return (
     <section className="relative py-8 lg:py-20" id="features">
       <div className="absolute start-[10%] z-0">
-        <div className="pointer-events-none aspect-square w-60 rounded-full bg-gradient-to-r from-primary/10 via-violet-500/10 to-purple-500/10 blur-3xl [transform:translate3d(0,0,0)] lg:w-[600px]"></div>
+        <div className="pointer-events-none aspect-square w-60 rounded-full bg-gradient-to-r from-primary/10 via-violet-500/10 to-purple-500/10 blur-3xl [transform:translate3d(0,0,0)] lg:w-[600px]" />
       </div>
 
       <div className="container">
         <div className="flex flex-col items-center">
           <h2 className="inline text-4xl font-semibold">Magical Things</h2>
-
-          <p className="mt-4 text-lg sm:text-center">Unlock the Full Potential of Your Business with Our SaaS Platform's Key Features</p>
+          <p className="mt-4 text-lg sm:text-center">Unlock the Full Potential of Your Business with Our SaaS Platforms Key Features</p>
         </div>
 
         <div className="relative z-[2] mt-8 grid gap-8 lg:mt-20 lg:grid-cols-2 lg:gap-12">
@@ -40,7 +39,7 @@ export const Feature = () => {
 
         <div className="mt-8 grid gap-8 lg:mt-20 lg:grid-cols-2 lg:gap-12">
           <div>
-            <Badge color={'primary'}>Control</Badge>
+            <Badge color="primary">Control</Badge>
             <h3 className="mt-2 text-3xl font-semibold">Managing Entities</h3>
             <p className="mt-2 text-base">
               Our SaaS platform offers seamless management, allowing you to effortlessly oversee users, projects, and resources in one centralized

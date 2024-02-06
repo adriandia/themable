@@ -4,7 +4,7 @@ import microsoftImage from '@/assets/logo/microsoft.svg'
 import netflixImage from '@/assets/logo/netflix.svg'
 import spotifyImage from '@/assets/logo/spotify.svg'
 import paypalImage from '@/assets/logo/paypal.svg'
-import {Button, Link} from 'react-daisyui'
+import {Button} from 'react-daisyui'
 import Card3d from 'card3d';
 import {useEffect, useRef} from "react";
 
@@ -37,14 +37,14 @@ export const Hero = () => {
                         <div className="mt-16 inline-flex gap-3">
                             <Button color="primary">Get Started</Button>
                             <Button color="ghost">Learn More</Button>
-                            <a role="button" className="btn btn-link" href="https://themes.ionevolve.com/" target='_blank'>Theme Builder</a>
+                            <a role="button" className="btn btn-link" href="https://themes.ionevolve.com/" target="_blank" rel="noreferrer">Theme Builder</a>
                         </div>
                     </div>
 
                     <div>
                         <div className="rounded-2xl bg-gradient-to-r from-indigo-200 via-red-200 to-purple-300 p-3"
                              ref={heroImageRef}>
-                            <img alt="SaaS" id='hero-image' className="rounded-lg" src={heroImage}/>
+                            <img alt="SaaS" id="hero-image" className="rounded-lg" src={heroImage} />
                         </div>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ export const Hero = () => {
 
                 <div className="mt-12 grid grid-cols-2 justify-center gap-8 sm:grid-cols-3 md:grid-cols-5">
                     <img className="mx-auto h-8 cursor-pointer grayscale transition-all duration-500 hover:grayscale-0"
-                         src={googleImage} alt="google logo"/>
+                         src={googleImage} alt="google logo" />
                     <img
                         className="mx-auto h-6 cursor-pointer grayscale transition-all duration-500 hover:grayscale-0"
                         src={microsoftImage}

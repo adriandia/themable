@@ -15,11 +15,11 @@ export const ThemeToggler = () => {
             viewBox="0 0 2048 2048"
             width="12px"
             xmlns="http://www.w3.org/2000/svg">
-            <path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"></path>
+            <path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z" />
           </svg>
         </Dropdown.Toggle>
         <Dropdown.Menu className="w-52">
-          <Menu size={'xs'}>
+          <Menu size="xs">
             <Menu.Item onClick={() => setTheme('system')}>
               <div className="flex gap-3 text-sm">
                 <Airplay className="h-5" />

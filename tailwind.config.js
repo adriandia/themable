@@ -73,6 +73,82 @@ export default {
           "--tab-radius": "0.5rem",
 
         },
+        yes1: {
+          'primary' : '#298EFF',
+          'primary-focus' : '#BBBBBB',
+          'primary-content' : '#201047',
+
+          'secondary' : '#020C16',
+          'secondary-focus' : '#88d7f7',
+          'secondary-content' : '#201047',
+
+          'accent' : '#298EFF',
+          'accent-focus' : '#298Eb0',
+          'accent-content' : '#201047',
+
+          'neutral' : '#20134e',
+          'neutral-focus' : '#140a2e',
+          'neutral-content' : '#f9f7fd',
+
+          'base-100' : '#0a233f',
+          'base-200' : '#298EFF',
+          'base-300' : '#140a2e',
+          'base-content' : '#f9f7fd',
+
+          'info' : '#4fbff3',
+          'success' : '#71ead2',
+          'warning' : '#f3cc30',
+          'error' : '#e13d53',
+
+          fontFamily: "Trade Gothic Display 1",
+          '--rounded-box': '1rem',          
+          '--rounded-btn': '.5rem',        
+          '--rounded-badge': '1.9rem',      
+
+          '--animation-btn': '.25s',       
+          '--animation-input': '.2s',       
+
+          '--btn-text-case': 'uppercase',   
+          '--navbar-padding': '.5rem',      
+          '--border-btn': '1px',            
+       },
+        gotham: {
+          'primary' : '#b5860f',
+          'primary-focus' : '#FFBD15',
+          'primary-content' : '#ffffff',
+
+          'secondary' : '#FFBD15',
+          'secondary-focus' : '#8c680c',
+          'secondary-content' : '#ffffff',
+
+          'accent' : '#ffca44',
+          'accent-focus' : '#e8ac13',
+          'accent-content' : '#ffffff',
+
+          'neutral' : '#2a2e37',
+          'neutral-focus' : '#16181d',
+          'neutral-content' : '#ffffff',
+
+          'base-100' : '#101010',
+          'base-200' : '#2a2e37',
+          'base-300' : '#16181d',
+          'base-content' : '#ebecf0',
+
+          'info' : '#66c7ff',
+          'success' : '#87cf3a',
+          'warning' : '#e1d460',
+          'error' : '#ff6b6b',
+          fontFamily: "SF Compact, Nippo, Inter",
+
+          '--rounded-box': '.1rem',          
+          '--rounded-btn': '.125rem',        
+          '--rounded-badge': '5rem',      
+          '--animation-btn': '.25s',       
+          '--animation-input': '.2s',       
+          '--btn-text-case': 'uppercase',   
+          '--navbar-padding': '.5rem',      
+          '--border-btn': '2px',            
+       },
       },
     ],
   },

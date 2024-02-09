@@ -41,7 +41,19 @@ export const ThemeToggler = () => {
             <Menu.Item onClick={() => setTheme('darkpink')}>
               <div className="flex gap-3 text-sm">
                 <Camera className="h-5" />
-                darkpink
+                DarkPink
+              </div>
+            </Menu.Item>
+            <Menu.Item onClick={() => setTheme('yes1')}>
+              <div className="flex gap-3 text-sm">
+                <Camera className="h-5" />
+                Yes1
+              </div>
+            </Menu.Item>
+            <Menu.Item onClick={() => setTheme('gotham')}>
+              <div className="flex gap-3 text-sm">
+                <Camera className="h-5" />
+                game
               </div>
             </Menu.Item>
           </Menu>

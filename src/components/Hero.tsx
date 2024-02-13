@@ -38,6 +38,7 @@ export const Hero = () => {
                             <Button color="primary">Get Started</Button>
                             <Button color="ghost">Learn More</Button>
                             <a role="button" className="btn btn-link" href="https://themes.ionevolve.com/" target="_blank" rel="noreferrer">Theme Builder</a>
+                            <a role="button" className="btn btn-link" href="https://react.daisyui.com/?path=/docs/welcome--docs" target="_blank" rel="noreferrer">React Components</a>
                         </div>
                     </div>
 

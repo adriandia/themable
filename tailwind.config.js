@@ -82,16 +82,16 @@ export default {
           'secondary-focus' : '#88d7f7',
           'secondary-content' : '#201047',
 
-          'accent' : '#298EFF',
-          'accent-focus' : '#298Eb0',
+          'accent' : '#3DB449',
+          'accent-focus' : '#79A8D1',
           'accent-content' : '#201047',
 
-          'neutral' : '#20134e',
+          'neutral' : '#101F37',
           'neutral-focus' : '#140a2e',
           'neutral-content' : '#f9f7fd',
 
-          'base-100' : '#0a233f',
-          'base-200' : '#298EFF',
+          'base-100' : '#0E151E',
+          'base-200' : '#101F37',
           'base-300' : '#140a2e',
           'base-content' : '#f9f7fd',
 
@@ -99,6 +99,13 @@ export default {
           'success' : '#71ead2',
           'warning' : '#f3cc30',
           'error' : '#e13d53',
+
+          // 'blue1' : '#101F37',
+          // 'blue2' : '#0A1521',
+          // 'blue4' : '#0E151E',
+          // 'blue3' : '#79A8D1',
+          // 'gray' : '#9DA7B2', 
+          // 'green' : '#3DB449', 
 
           fontFamily: "Trade Gothic Display 1",
           '--rounded-box': '1rem',          
